@@ -16,5 +16,5 @@ file { '/var/www/html/index.html':
 }
 
 service { 'apache2':
-  ensure => running,
+  ensure => stopped,
 }
